@@ -1,0 +1,328 @@
+@font-face{
+    src: url(fonts/SukhumvitSet-Bold.ttf);
+    font-family:sb;
+}
+@font-face{
+    src: url(fonts/SukhumvitSet-SemiBold.ttf);
+    font-family:ssb;
+}
+@font-face{
+    src: url(fonts/SukhumvitSet-Light.ttf);
+    font-family:sl;
+}
+@font-face{
+    src: url(fonts/SukhumvitSet-Medium.ttf);
+    font-family:sm;
+}
+@font-face{
+    src: url(fonts/SukhumvitSet-Text.ttf);
+    font-family:st;
+}
+@font-face{
+    src: url(fonts/SukhumvitSet-Thin.ttf);
+    font-family:sth;
+}
+@media screen and (min-width: 1024px) {
+body, html {
+    overflow:auto;
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: url("bg.jpg");
+    height: 800px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header1{
+    height: 126.5px;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    background-color : rgba(0, 0, 0, 0.4);
+}
+.logo{
+    margin-left:7%;
+    height: 100%;
+    width: 155.5px;
+    float: left;
+    background-color : #FF9200;
+    text-align:center;
+}
+.logo1{
+    width:97%;
+    margin-top: 16%;
+}
+.header2{
+    width: 260px;
+    float: left;}
+.header3{
+    text-align : right;
+    padding-top:70px;
+    width: 58px;
+    float: left;}
+.header4{
+    text-align : center;
+    padding-top:70px;
+    width: 130px;
+    float: left;}
+.header5{
+    text-align: left;
+    width: 152px;
+    float: right;}
+.header6{
+    padding-right: 7px;
+    padding-top:54px;
+    text-align:right;
+    width: 200px;
+    float: right;}
+.header7{display: none;}
+.header8{display: none;}
+.dropdown {
+    height:50px;
+    position: relative;
+    display: inline-block;}
+.dropdown-content {
+    text-align:center;
+    right:12px;
+    top:25px;
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+.dropdown-content a {
+    padding: 2px 8px;
+    display: block;
+}
+.dropdown-content a:hover {background-color: rgba(255,255,255,0.2)}
+.dropdown:hover .dropdown-content {display: block;}
+.text10{
+    color:white;
+    font-family:sb;
+    font-size:10px;
+}
+.text11{
+    padding-top:10px;
+    color:white;
+    font-family:sb;
+    font-size:10.5px;
+    line-height:0px;
+}
+.user{
+    width:35%;
+    margin-top: 32%;
+}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: underline;}
+.text1{
+    margin-left:19px;
+    margin-top:9%;
+    margin-bottom:-10%;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:31px;
+}
+.text2{
+    margin-left:19px;
+    margin-top:11%;
+    margin-bottom:-15%;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+.text3{
+    margin-right:8px;
+    color:white;
+    font-family:sb;
+    font-size:18px;
+}
+.text4{
+    margin-top:43.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left:7%;
+    padding-bottom:1px;
+    font-size:20px;
+    line-height:0px;
+}
+.text5{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-left:12%;
+    padding-top:5px;
+    position: relative;
+}
+.text6{
+    margin-right:8px;
+    color:white;
+    font-family:sb;
+    font-size:16px;
+}
+.text7{
+    color:orange;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-right: 5px;
+}
+.text9{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    margin-right: 5px;
+}
+
+.uploadbotton {
+    margin-bottom: 10px;
+    position: relative;
+    margin-left:7%;
+}
+
+input[class = "orange"] {
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 337px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 30px;
+    font-style: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.orange{background: #ff9200;}
+
+.announcement {
+    height: 50px;
+    width: 935px;
+    margin-right: 7%;
+    border-radius: 10px;
+    margin-top: 10px;
+    float:right;
+    background-color : rgba(255, 255, 255, 0.6);
+}
+
+.bullhorn{
+    margin-top: -25px;
+    margin-left: 1.5%;
+}
+
+
+.status {
+    height: 350px;
+    margin-left:7%;
+    width: 337px;
+    float:left;
+    position: relative;
+    background-color : rgba(255, 255, 255, 0.6);
+}
+
+input[type="round-button"] {
+    border: none;
+    color: black;
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    border: none;
+    border-radius: 50%;
+    font-style: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;            
+    margin-left:30%;
+}
+.red{background: #ff0202;}
+.green{background: #8de732;}
+
+input[class = "black"] {
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 45px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    font-style: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 130px;                 
+    margin-left:7%
+}
+.black{background: black;}
+
+.myproject {
+    height: 280px;
+    margin-left:3%;
+    width: 280px;
+    float:left;
+    position: relative;
+    background-color : rgba(255, 255, 255, 0.6);
+}
+
+.mystatus1{
+    height: 30px;
+    width: 60px;
+    float:left;
+    position: relative;
+    background-color : red;
+}
+
+.mystatus2{
+    height: 30px;
+    width: 60px;
+    float:left;
+    position: relative;
+    background-color : greenyellow;
+}
+
+.myproject1 {
+    height: 280px;
+    margin-left:3%;
+    width: 280px;
+    float:left;
+}
+
+
+.footer {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    float: left;
+    background-color : rgba(0, 0, 0, 0.4);
+}
+.help{
+    margin-left:7%;
+    height: 50px;
+    width: 160px;
+    float: left;
+    text-align:left;
+}
+.help1{
+    width:19%;
+    margin-top:22px;
+    margin-right:10px;
+    vertical-align:bottom
+}
+.longlo{
+    margin-right: 7%;
+    text-align:right;
+    float: right;
+}
+.longlogo{
+    margin-top: 5px;
+    width:80%;
+}   
+.bodylefts{display: none;}
+}
